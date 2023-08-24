@@ -1,0 +1,11 @@
+¿Por qué la incompatibilidad entre lenguajes y sistemas operativos?
+La incompatibilidad ocurre debido a diferencias en sistemas y características de lenguajes, lo que puede hacer que ciertos lenguajes no funcionen en algunos sistemas.
+
+¿Qué tipos de máquinas virtuales admite VirtualBox?
+VirtualBox admite máquinas virtuales x86/x64 con sistemas como Windows, Linux y macOS, creando un entorno simulado dentro de otro sistema.
+
+¿Cuál es el papel del hypervisor en la virtualización?
+El hypervisor gestiona máquinas virtuales. Tipo 1 opera directo en el hardware, mientras Tipo 2 corre sobre un sistema operativo, permitiendo la virtualización.
+
+Si una máquina virtual falla, ¿afecta a las otras?
+En general, una VM con problemas no afecta a otras, a menos que compartan recursos. Problemas graves en la VM o el hypervisor pueden tener impactos indirectos.
